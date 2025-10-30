@@ -1,5 +1,5 @@
 body{
-   background-color: #FFE4C4;
+   background-color: #444444
    font-family: Arial, sans-serif;
    color: #F5F5DC;
 }
@@ -11,11 +11,14 @@ body{
    backround-color: white;
    border-radius: 15px;
    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+   border: 3px solid #FFE4C4;
 }
-.kartu-profil img{
+.kartu-profil img {
    width:150px;
    border-radius: 50%;
 }
-.kartu-profil {
-   text-align: center;
-}
+.kartu-profil p {
+    /* Jarak bawah paragraf */
+    margin-bottom: 25px;
+    /* Warna teks sedikit lebih terang dari default body */
+    color: #666;
